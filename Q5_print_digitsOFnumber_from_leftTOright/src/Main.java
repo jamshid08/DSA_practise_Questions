@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int digit =0;
-        int temp = number;
+      int temp = number;
         while(temp != 0){
             temp/= 10;
             digit ++;
